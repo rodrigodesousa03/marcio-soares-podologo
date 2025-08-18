@@ -127,6 +127,49 @@
       },
       "sameAs": [
         "https://www.facebook.com/marciosoarespodologo"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "11"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Maria T."
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Fui muito bem acolhida. Profissional atencioso, dedicado e competente!! Recomendo muito!!"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Luiz G."
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Atendimento excepcional e ótima localização! Márcio é um profissional exemplar e de muita experiência! Recomendo de olhos fechados!"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Alexandre C."
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Recomendo a todos que querem um serviço de um excelente profissional. Ótima estrutura, ambiente limpo organizado e atendimento excepcional."
+        }
       ]
     }
     </script>
@@ -194,6 +237,19 @@
     <!-- Skip to main content link for accessibility -->
     <a class="skip-link" href="#sobre">Pular para o conteúdo principal</a>
 
+    <!-- WhatsApp Floating Button -->
+    <div class="whatsapp-float" id="whatsapp-float">
+        <a href="https://wa.me/5511518342770?text=Olá%2C%20gostaria%20de%20agendar%20uma%20consulta" 
+           target="_blank" 
+           rel="noopener"
+           aria-label="Falar no WhatsApp">
+            <i class="fa fa-whatsapp"></i>
+        </a>
+        <div class="whatsapp-tooltip">
+            Fale conosco!
+        </div>
+    </div>
+
     <div id="fb-root"></div>
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top" role="navigation" aria-label="Menu principal">
@@ -222,6 +278,12 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#fotos" aria-label="Galeria de fotos da clínica">Fotos</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#avaliacoes" aria-label="Depoimentos de pacientes">Avaliações</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#faq" aria-label="Perguntas frequentes">FAQ</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contato" aria-label="Informações de contato e localização">Contato</a>
@@ -421,6 +483,118 @@
         </div>
     </section>
 
+    <!-- Testimonials Section -->
+    <section id="avaliacoes" class="testimonials-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">O Que Nossos Pacientes Dizem</h2>
+                    <hr class="primary">
+                    <p class="section-description">Depoimentos reais de quem confia no nosso trabalho</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p class="testimonial-text">"Fui muito bem acolhida. Profissional atencioso, dedicado e competente!! Recomendo muito!!"</p>
+                        <div class="testimonial-author">
+                            <strong>Maria T.</strong>
+                            <span>Avaliação Google Maps</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p class="testimonial-text">"Atendimento excepcional e ótima localização! Márcio é um profissional exemplar e de muita experiência! Recomendo de olhos fechados!"</p>
+                        <div class="testimonial-author">
+                            <strong>Luiz G.</strong>
+                            <span>Avaliação Google Maps</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p class="testimonial-text">"Recomendo a todos que querem um serviço de um excelente profissional. Ótima estrutura, ambiente limpo organizado e atendimento excepcional."</p>
+                        <div class="testimonial-author">
+                            <strong>Alexandre C.</strong>
+                            <span>Avaliação Google Maps</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Perguntas Frequentes</h2>
+                    <hr class="primary">
+                    <p class="section-description">Tire suas dúvidas sobre nossos serviços</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFaq(this)">
+                            <h4>O tratamento de unha encravada dói? <i class="fa fa-chevron-down"></i></h4>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Não! Utilizamos técnicas modernas e materiais adequados para minimizar qualquer desconforto. O procedimento é realizado com máximo cuidado e precisão.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFaq(this)">
+                            <h4>Os materiais são realmente esterilizados? <i class="fa fa-chevron-down"></i></h4>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim! Todos os instrumentos são esterilizados em autoclave e utilizamos materiais descartáveis sempre que possível, seguindo rígidos protocolos de biossegurança.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFaq(this)">
+                            <h4>É necessário agendar consulta? <i class="fa fa-chevron-down"></i></h4>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Recomendamos o agendamento para garantir o horário de sua preferência. Você pode agendar pelo telefone ou WhatsApp.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFaq(this)">
+                            <h4>Qual a diferença entre calos e calosidades? <i class="fa fa-chevron-down"></i></h4>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Calos são mais localizados e profundos, enquanto calosidades são mais superficiais e espalhadas. Ambos podem ser tratados com segurança em nossa clínica.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="contato" class="contact" role="contentinfo">
         <div class="container">
             <div class="row">
@@ -450,11 +624,33 @@
                 </div>
             </div>
             <div class="col-lg-8 col-lg-offset-2 text-center social-media">
-                <h3>Siga-nos nas Redes Sociais</h3>
-                <a href="https://www.facebook.com/marciosoarespodologo" target="_blank" rel="noopener" aria-label="Seguir no Facebook" class="social-link">
-                    <i class="fa fa-facebook fa-1x" aria-hidden="true"></i>
-                    <span class="social-text">Facebook</span>
-                </a>
+                <h3>Entre em Contato</h3>
+                <div class="contact-buttons">
+                    <a href="https://wa.me/5511518342770?text=Olá%2C%20gostaria%20de%20agendar%20uma%20consulta" 
+                       target="_blank" 
+                       rel="noopener" 
+                       aria-label="Conversar no WhatsApp" 
+                       class="social-link whatsapp-link">
+                        <i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
+                        <span class="social-text">WhatsApp</span>
+                    </a>
+                    <a href="https://www.facebook.com/marciosoarespodologo" 
+                       target="_blank" 
+                       rel="noopener" 
+                       aria-label="Seguir no Facebook" 
+                       class="social-link facebook-link">
+                        <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                        <span class="social-text">Facebook</span>
+                    </a>
+                    <a href="https://www.instagram.com/marciosoarespodologo" 
+                       target="_blank" 
+                       rel="noopener" 
+                       aria-label="Seguir no Instagram" 
+                       class="social-link instagram-link">
+                        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                        <span class="social-text">Instagram</span>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -481,6 +677,80 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+
+    <!-- Modern 2025 Features -->
+    <script>
+        // FAQ Toggle Function
+        function toggleFaq(element) {
+            const faqItem = element.parentElement;
+            const answer = faqItem.querySelector('.faq-answer');
+            const icon = element.querySelector('i');
+            
+            faqItem.classList.toggle('active');
+            
+            if (faqItem.classList.contains('active')) {
+                answer.style.maxHeight = answer.scrollHeight + 'px';
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                answer.style.maxHeight = '0';
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        // WhatsApp Float Animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const whatsappFloat = document.getElementById('whatsapp-float');
+            
+            // Show after 3 seconds
+            setTimeout(() => {
+                whatsappFloat.classList.add('show');
+            }, 3000);
+
+            // Pulse animation every 10 seconds
+            setInterval(() => {
+                whatsappFloat.classList.add('pulse');
+                setTimeout(() => {
+                    whatsappFloat.classList.remove('pulse');
+                }, 1000);
+            }, 10000);
+        });
+
+        // Smooth scroll for new menu items
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add active class to menu items on scroll
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.navbar-nav a[href^="#"]');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
 
 </body>
 
